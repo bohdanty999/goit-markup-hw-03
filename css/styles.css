@@ -1,0 +1,101 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-style: normal;
+}
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+}
+.logo .accent {
+  color: #4d5ae5;
+}
+
+.nav {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.hero-section {
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.32px;
+}
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.64px;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.title {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
+.title-secondary {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.32px;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-element {
+  background-color: #ffffff;
+}
+.team-text {
+  text-align: center;
+}
+.team-title {
+  text-align: center;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.accent-footer {
+  color: #f4f4fd;
+}
