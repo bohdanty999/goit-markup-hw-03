@@ -71,7 +71,7 @@ img {
   line-height: 1.1;
   text-align: center;
   font-weight: 700;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
   margin-bottom: 72px;
 }
 
@@ -80,7 +80,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
   margin-bottom: 8px;
 }
 
@@ -92,10 +92,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header a {
-  padding: 24px 0;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -104,8 +100,12 @@ img {
 
 .nav-list {
   display: flex;
-  align-items: center;
   gap: 40px;
+}
+
+.nav-list a {
+  display: block;
+  padding: 24px 0;
 }
 
 .nav {
@@ -113,6 +113,7 @@ img {
   font-weight: 500;
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 .address-list {
   display: flex;
@@ -154,7 +155,7 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02;
   margin-bottom: 48px;
 
   max-width: 496px;
