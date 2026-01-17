@@ -39,15 +39,37 @@ img {
   display: block;
 }
 
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header {
-  background-color: #e7e9fc;
+  padding: 24px 0;
+  border-top: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 76px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -58,7 +80,6 @@ img {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.48px;
-  padding-right: 76px;
 }
 
 .logo .accent {
@@ -70,39 +91,28 @@ img {
   font-weight: 500;
 }
 
-.nav-link {
-  display: flex;
-  gap: 40px;
-  padding-right: 332px;
-}
-
-.address-link {
-  display: flex;
-  gap: 40px;
-}
-
 .hero-section {
   color: #ffffff;
   background-color: #2e2f42;
-  padding: 188px 0 292px 0;
-  text-align: center;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: 0;
-  padding-right: 0;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 182px;
+  padding-bottom: 182px;
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.32px;
   margin-bottom: 48px;
+
+  max-width: 496px;
 }
 
 .button {
@@ -160,17 +170,17 @@ img {
   box-shadow: 0px 1px 6px 0px #2e2f4214;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  width: 264px;
-  height: 380px;
+  width: calc((100% - 72px) / 3);
 }
 
-.team-card {
+.team-list {
   display: flex;
   gap: 24px;
 }
 
 .team-text {
   text-align: center;
+  margin-bottom: 32px;
 }
 .team-title {
   text-align: center;
@@ -180,12 +190,18 @@ img {
   line-height: 1.2;
   letter-spacing: 0.32px;
   margin-bottom: 8px;
+  margin-top: 32px;
 }
 
-.portfolio-section {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .footer {
@@ -217,14 +233,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.container {
-  width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .section {
